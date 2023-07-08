@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.99em;
+            /* text-shadow: 0 0 5px red; */
+        }
+        #head{
+            transition: 0.4s;
+        }
+        #abc{
+            background-image:url("pic1.jpg");
+            height:100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        #abc h2{
+            color: whitesmoke;
+            font-family: monospace;
+            margin-left: 100px;
+            padding-top: 20px; 
+            display:flex;
+        }
+        body{
+            color: whitesmoke;
+            background-color: black;
+            overflow-x:hidden;
+        }
+        ul{
+            position:absolute;
+            left:75%;
+            top:25px;
+            display:inline;
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            padding:20px;
+        }
+        .heading{
+            margin: 20%;
+            text-align: center;
+            font-size: 80px;
+            text-shadow:0 0 10px black;
+        }
+        .d{
+            background-color: black;
+            height: 30vh;
+        }
+        .d div{
+            color: whitesmoke;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 10%;
+            
+        }
+        
+      #planet{
+        text-align: left;
+        margin-top: 18%;
+        font-size:30px;
+        padding-left: 200px;
+        
+      }
+      #planets{
+        font-size: 60px;
+      }
+      #meet{
+        font-size: 2em;
+      }
+      #telescope{
+        padding-left:160px;
+        margin-top: 10%;
+        transform: translateY(-80px);
+      }
+     #mission{
+        text-align: left;
+        margin-top: 100px;
+        font-size: large;
+        padding-left: 200px;
+     }
+     .image{
+        background-image: url("/moon-landing-62879.jpg");
+        height:100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+     .num{
+        background-image: url("/num.png");
+     }
+
+     #images{
+        width: cover;
+     }
+     #part1{
+        float: left;
+        margin-left: 300px;
+        margin-top: 100px;
+     }
+     #part2{
+        margin-left:800px;
+        transform:translateY(100px);
+     }
+     .btn{ 
+         border:2px solid white; 
+         background-color: #fff; 
+         color: #000;
+      }
+      a{
+        color: #000;
+        text-decoration: none;
+      }
+      .btn:hover *{
+        color: #fff; 
+      }
+      #sub{
+        color: white;
+        background-color: #000;
+      }
+      #sub:hover {
+        color: black;
+        background-color: rgb(255, 255, 255);
+      }
+      #Gallery{
+        color: whitesmoke;
+        text-decoration: none;
+      }
+      #Gallery:hover {
+        color: black;
+        background-color: whitesmoke;
+      }
+      #star{
+        transition: 0.4s;
+    }
+      #star:hover{
+        transform: scaleX(1.4);
+      }
+      
+    </style>
+</head>
+<body>
+    <section id="abc" class="col-md-12">
+        <div id="head" class="col-md-3">
+            <h2 >Ether</h2>
+        </div>
+        <div class="nav-item">
+            <ul>
+                <li><a id="Gallery" href="https://www.nasa.gov/multimedia/imagegallery/index.html">Gallery</a></li>
+                <li><a id="Gallery" href="/about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="heading">
+            <p>Let's Explore Cosmos</p>
+        </div>
+   
+    </section>
+
+    <section class="d"> 
+    <div>
+      <p id="star">WE ALL ARE MADE FROM THE SAME SAME STAR DUST</p>
+    </div>
+
+    </section >
+
+    <div class="row ml-3">
+        <div id="planet" class="col-sm-6">  
+            <h2 id="planets">Planet</h2>
+            <br>
+            <p id="solar">Know about our <br>
+               solar system</p>
+            <button id="p" class="btn"><a href="https://solarsystem.nasa.gov/planets/overview/">Read More</a></button>
+        </div>
+        <div class="col-sm-6">
+            <img src="/earth.jpg" class="img-fluid" alt="earth">
+        </div>
+    </div>
+
+    <section id="meet" style="height: 300px;">
+        <div style="padding-left: 100px;">
+        <p style="font-size: 0.75em;">MEET ETHER</p>
+        <br>
+        <p>We provide latest content<br> related to Space for every<br> Space lovers</p>
+    </div>
+    </section>
+    <section>
+    <div class="row ml-3">
+        <div id="telescope" class="col-sm-6">  
+            <h2 id="planets">Telescope</h2>
+            <br>
+            <p id="observe" style="font-size: 20px;">A space telescope or space observatory is a telescope in outer space used to observe astronomical objects. Suggested by Lyman Spitzer in 1946, the first operational telescopes were the American Orbiting Astronomical Observatory, OAO-2 launched in 1968</p>
+            <button class="btn" style="border-radius: 10px; height: 50px;"><a href="https://en.wikipedia.org/wiki/Space_telescope">Read More</a></button>
+        </div>
+        <div class="col-sm-6">
+            <img src="/tel.jpg" class="img-fluid" alt="earth">
+        </div>
+    </div>
+</section>
+   
+<section>
+    <div class="row ml-3">
+        <div class="col-sm-6">
+            <img src="/mission.jpg" class="img-fluid" alt="earth">
+        </div>
+        <div id="mission" class="col-sm-6">  
+            <h2 id="planets">Upcomming <br> Mission</h2>
+            <br>
+            <p id="nasa" style="font-size: 20px;">Here you can find the upcoming<br> missions organise by Nasa and SpaceX</p>
+            <button class="btn" style="border-radius: 10px; height: 50px;"><a href="https://nssdc.gsfc.nasa.gov/planetary/upcoming.html">Read More</a></button>
+        </div>
+       
+    </div>
+</section>
+
+<section>
+    <div class="row ml-3">
+        <div id="telescope" class="col-sm-6">  
+            <h2 id="planets">Explore Mars</h2>
+            <br>
+            <p id="observe" style="font-size: 20px";>
+                Human are planning to make mars as <br> habitable planet.<br>
+                Elon musk is the main face for this <br>mission.</p>
+            <button class="btn" style="border-radius: 10px; height: 50px;"> <a href="https://en.wikipedia.org/wiki/List_of_missions_to_Mars"> Read More</a></button>
+        </div>
+        <div class="col-sm-6">
+            <img src="/mars.jpg" class="img-fluid" alt="earth">
+        </div>
+    </div>
+</section>
+<section class="image">
+    <!-- <img src="/moon-landing-62879.jpg" class="img-fluid" alt=""> -->
+</section>
+
+
+<div id="images">
+    <img src="/galaxy.jpg" id="galaxy" alt="earth" width="700px">
+    <img class="data" src="/num.png" alt="" width="600px">
+</div>
+
+<div style="min-height: 100vh;">
+    <img src="/partners.png" width="1250px" style="margin-left:5%;">
+</div>
+
+
+<footer >
+    <section id="footer" style="background-color:#fff; width: cover; height:52vh;">
+
+        <div id="part1" style="color: black;">
+            <h3>Ether</h3>
+            <br><br>
+            <p>Tel: 9328761189</p><br>
+            <p>Email:<br> pd2752003@gmail.com</p><br>
+            <p>mumbai-india</p>
+        </div>
+        <div id="part2" style="color: black;">
+            <h3>SUBSCRIBE</h3>
+            <br>
+            <p>Sign up to receive Space news and updates.</p><br>
+            <p>Email</p>
+            <br>
+            <input type="text" style="border: 2px solid; ">
+            
+            <button id="sub" class="bt" type="submit" style="border-radius: 10px; border:none;  ">Subscribe</button>
+        </div>
+    </section>
+</footer>
+</body>
+</html>
